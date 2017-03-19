@@ -1,9 +1,6 @@
-an_integer =12
-a_floating_pint =34
-a_boolean =True 
-a_string = "Foo"
+s=input('Enter a string:')
 
-print("Integer value=",an_integer)
-print("float value =",a_floating_pint)
-print("Boolean value =",a_boolean)
-print("string value =",a_string)
+print("You have entered" + s)
+print("No.of character s =%d" % len(s))
+print("First character = %s" % s[0])
+print("Last character =%s" %s[len(s) - 1 ])
