@@ -10,4 +10,4 @@ print('Last name in the list: %s' % names[-1])
 
 joined_name = '\n' .join(names)
 print('\nList of names:')
-print(joined_name)
+print(joined_name)s
